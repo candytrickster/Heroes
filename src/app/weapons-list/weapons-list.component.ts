@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeaponsListComponent implements OnInit {
 
+  weapons = [
+    {name: "Gorehowl"},
+    {name: "Doom Hammer"},
+    {name: "Ash Bringer"}
+  ];
   constructor() { }
 
   ngOnInit() {

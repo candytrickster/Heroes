@@ -9,9 +9,9 @@ export class AppComponent {
   title = 'app works!';
   hammer = 'Mjolnir';
   power = 90001;
-  hero = {
-    name: 'Bob the Builder',
-    slogan: 'Can we build it?',
-    answer: 'Yes we can!'
-  }
+  // hero = {
+  //   name: 'Bob the Builder',
+  //   slogan: 'Can we build it?',
+  //   answer: 'Yes we can!'
+  // }
 }

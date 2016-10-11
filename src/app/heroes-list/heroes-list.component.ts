@@ -7,6 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroesListComponent implements OnInit {
 
+  hero = {
+    name:'Superman',
+    age: 32,
+    gender:'Male',
+    power:'Flight'
+  };
+
+
+
+
   constructor() { }
 
   ngOnInit() {
