@@ -1,7 +1,20 @@
-<p>
-  heroes-list works!
-</p>
-<pre>{{hero | json}}</pre>
-<div>
-  <input type="text" [(ngModel)]="hero.name"/>
-</div>
+<!--<p>-->
+  <!--heroes-list works!-->
+<!--</p>-->
+<!--<pre>{{hero | json}}</pre>-->
+<!--<h1>{{hero.name | uppercase}}</h1>-->
+<!--<div>-->
+  <!--<input type="text" [(ngModel)]="hero.name"/>-->
+<!--</div>-->
+<!--<div>-->
+  <!--<input type="text" [value]="hero.gender"/>-->
+<!--</div>-->
+
+<h1>Heroes</h1>
+<pre>{{heroes | json }}</pre>
+
+<ul>
+  <li *ngFor="let hero of heroes">{{hero.name}} -- {{hero.description}}</li>
+</ul>
+
+<button (click)="greet('tracie')">Greet</button>
